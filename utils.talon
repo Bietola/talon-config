@@ -1,6 +1,10 @@
 os: linux
 
 -
+# Unix
+
+sudo pass:
+    # TODO/CC
 
 # Text Editing
 
@@ -12,7 +16,7 @@ scratch:
 
 # Keys
 
-lud:
+loon:
     insert("à")
 
 lid:
@@ -30,5 +34,6 @@ edit:
 
 term:
     key(super-shift-enter)
+
 terminate:
     key(super-shift-c)
