@@ -7,7 +7,8 @@ context = Context()
 @context.action_class("user")
 class NoiseActions:
     def on_pop():
-        actions.mouse_click()
+        # actions.mouse_click()
+        pass
 
     def on_hiss(start: bool):
         # TODO: Maybe use audio cues to notify user of premature release?
